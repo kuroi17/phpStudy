@@ -10,16 +10,22 @@
 <body>
 
     <?php
+    // document root is the root directory of the website
     echo $_SERVER["DOCUMENT_ROOT"];
     echo "<br>";
+    // PHP_SELF returns the filename of the currently executing script
     echo $_SERVER["PHP_SELF"];
     echo "<br>";
+    // SERVER_NAME returns the name of the server host
     echo $_SERVER["SERVER_NAME"];
     echo "<br>";
+    // HTTP_HOST returns the Host header from the current request
     echo $_SERVER["HTTP_HOST"];
     echo "<br>";
+    // REQUEST_URI returns the URI which was given in order to access this page
     echo $_SERVER["REQUEST_URI"];
     echo "<br>";
+    // REQUEST_METHOD returns the request method used to access the page
     echo $_SERVER["REQUEST_METHOD"];
     echo "<br>";
 
